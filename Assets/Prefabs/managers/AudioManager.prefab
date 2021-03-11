@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2021447077780329519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2021447077780329513}
+  - component: {fileID: 2021447077780329512}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2021447077780329513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021447077780329519}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.78905535, y: -0.3620513, z: 0.45635816}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2021447077780329512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021447077780329519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e31a8cd8288cf594996c0a5b4ca3c2d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundtrack: {fileID: 5896499750405189732, guid: 35af012a1de852f46bc606b1024c94c9,
+    type: 3}
+  fireball: {fileID: 3675512949867438902, guid: 67c0242ada8b78b409d45ac2bf712af9,
+    type: 3}
+  spell: {fileID: 9153374855166599667, guid: 53099295cce39d64782af6f0e3ffc673, type: 3}
+  poof: {fileID: 2364000080621553739, guid: 13153adac5f374141afcf020c43eeafb, type: 3}
+  punch: {fileID: 5242562912474591839, guid: b2fc8a3c86f365248b3755d61f7a5184, type: 3}
+  collected: {fileID: 83905107629091545, guid: 250c439ff6be428418b502a5e7890136, type: 3}
+  healing: {fileID: 6179372008476942149, guid: 5ac7edca66d91d143810a5271ef6a54e, type: 3}
+  nofireball: {fileID: 8039939992087595775, guid: f51f5a36cffe38344a5c8a46c6a6e395,
+    type: 3}
+  firecrackles: {fileID: 7908758203910673995, guid: 2a2031e27a31e4d4a861bc8f50df87f6,
+    type: 3}
+  ogre:
+  - {fileID: 1124513172416130409, guid: 458464f090996454cb03fdc6a964a4f3, type: 3}
+  - {fileID: 4059933756129518000, guid: 8d1222fe360892b4dbc6a34ab76e3841, type: 3}
+  - {fileID: 8774322709285170867, guid: a6355706a8f600543afdd5522eea08c1, type: 3}
